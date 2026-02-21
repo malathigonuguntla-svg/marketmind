@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MarketMind | AI Sales & Marketing Intelligence</title>
+  <meta name="description" content="MarketMind is a Generative AI-powered sales and marketing intelligence platform that drives predictive insights and revenue growth.">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <div class="container nav-container">
+      <div class="logo">MarketMind</div>
+
+      <nav id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-toggle" id="menuToggle">
+        ☰
+      </div>
+
+      <a href="#contact" class="btn btn-primary desktop-btn">Request Demo</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Generative AI–Powered<br>Sales & Marketing Intelligence</h1>
+      <p>
+        Transform data into revenue-driving decisions with predictive analytics,
+        automated campaigns, and intelligent forecasting.
+      </p>
+      <div class="hero-buttons">
+        <a href="#pricing" class="btn btn-primary">Get Started</a>
+        <a href="#features" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title">Core Capabilities</h2>
+
+      <div class="grid-4">
+        <div class="card">
+          <h3>AI Sales Forecasting</h3>
+          <p>Advanced predictive models to forecast revenue and identify growth opportunities.</p>
+        </div>
+
+        <div class="card">
+          <h3>Smart Lead Scoring</h3>
+          <p>Automatically prioritize leads using behavioral analytics and AI signals.</p>
+        </div>
+
+        <div class="card">
+          <h3>Campaign Optimization</h3>
+          <p>Generate high-converting marketing campaigns powered by generative AI.</p>
+        </div>
+
+        <div class="card">
+          <h3>Customer Insights</h3>
+          <p>Deep segmentation and behavioral intelligence to personalize engagement.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DASHBOARD ===== -->
+  <section id="dashboard" class="section dark-section">
+    <div class="container center">
+      <h2 class="section-title">AI Intelligence Dashboard</h2>
+      <div class="dashboard-box">
+        <p>Real-time analytics • Predictive insights • AI recommendations</p>
+        <button class="btn btn-primary" id="demoBtn">Launch Demo</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <h2 class="section-title">Flexible Pricing</h2>
+
+      <div class="grid-3">
+        <div class="pricing-card">
+          <h3>Starter</h3>
+          <p class="price">$29<span>/mo</span></p>
+          <ul>
+            <li>Basic AI Insights</li>
+            <li>Lead Scoring</li>
+            <li>Email Support</li>
+          </ul>
+          <a href="#" class="btn btn-outline">Choose Plan</a>
+        </div>
+
+        <div class="pricing-card featured">
+          <h3>Pro</h3>
+          <p class="price">$79<span>/mo</span></p>
+          <ul>
+            <li>Advanced Forecasting</li>
+            <li>Campaign Automation</li>
+            <li>Priority Support</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Choose Plan</a>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Enterprise</h3>
+          <p class="price">Custom</p>
+          <ul>
+            <li>Full AI Suite</li>
+            <li>Dedicated Manager</li>
+            <li>Custom Integrations</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section dark-section">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+
+      <form id="contactForm" class="contact-form">
+        <input type="text" id="name" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email Address" required />
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="formMessage" class="form-message"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 MarketMind. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
